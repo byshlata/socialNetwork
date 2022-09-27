@@ -1,0 +1,76 @@
+@import '../style/color'
+
+
+.otherCircleWrapper
+  position: absolute
+  transition: all .5s ease
+  transform: translateX(50%)
+  right: 50%
+  width: 40px
+  height: 40px
+
+.svgMobileMenu
+  display: block
+  width: 24px
+  height: 24px
+  stroke: $white-color
+  stroke-width: 2
+  stroke-linecap: round
+  stroke-linejoin: round
+  fill: $white-color
+
+.otherCircleItem
+  width: 40px
+  height: 40px
+  position: relative
+
+.otherCircle
+  position: absolute
+  display: flex
+  justify-content: center
+  align-items: center
+  width: 40px
+  height: 40px
+  border-radius: 50%
+  background: $maimMobileMenuColor
+  transition: all .25s ease
+  border: none
+  z-index: 100
+  padding: 0
+
+.dropTop, .dropTopStart, .dropBottom, .dropBottomStart
+  position: absolute
+  width: 60%
+  height: 60%
+  top: -20%
+  right: 50%
+  transform: translate(50%, 50%) rotate(45deg)
+  background-color: $maimMobileMenuColor
+  border-radius: 40%
+  z-index: 50
+
+.dropBottom
+  top: 0
+
+.dropTopStart
+  animation: borderTopAnimation .3s ease .2s
+
+.dropBottomStart
+  animation: borderBottomAnimation .3s ease .2s
+  top: 0
+
+@keyframes borderTopAnimation
+  0%
+    top: -20%
+  50%
+    top: -40%
+  100%
+    top: -20%
+
+@keyframes borderBottomAnimation
+  0%
+    top: 0
+  50%
+    top: 20%
+  100%
+    top: 0

@@ -1,0 +1,33 @@
+.informationWrapper
+  width: 275px
+  display: flex
+  padding: 5px
+  margin-left: 20px
+  flex-direction: column
+  align-items: start
+  align-self: end
+  justify-self: end
+  justify-content: flex-end
+
+@media (max-width: 820px)
+  .informationWrapper
+    position: relative
+    margin: 0
+    width: 90%
+    align-self: center
+    &:after
+      position: absolute
+      content: ''
+      top: 0
+      left: 0
+      right: 0
+      height: 0.5em
+      border-top: 1px solid grey
+
+
+
+
+
+
+
+

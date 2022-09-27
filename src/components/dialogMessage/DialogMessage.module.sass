@@ -1,0 +1,60 @@
+$colorMessage: #8059a6
+$colorBlack: #000000
+$colorText: #c4d8bf
+$colorName: #a399b4
+
+.messageAuthUser, .messageOtherUser
+    display: flex
+    justify-content: end
+    align-self: end
+    max-width: 270px
+    padding: 5px 0 5px 0
+
+.messageOtherUser
+    flex-direction: row-reverse
+    align-items: flex-end
+    align-self: start
+
+.link
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 50px
+    height: 50px
+    margin-left: 10px
+
+.avatar
+    width: 100%
+    height: 100%
+    border: 1px solid $colorBlack
+    border-radius: 50px
+
+.wrapperAuthUser, .wrapperOtherUser
+    position: relative
+    margin-left: 15px
+    background-color: $colorMessage
+    box-sizing: border-box
+    padding: 10px 10px 25px 10px
+    max-width: 200px
+    border-radius: 10px 10px 0 10px
+
+.wrapperOtherUser
+    border-radius: 10px 10px 10px 0
+
+.name
+    color: $colorBlack
+    margin-bottom: 10px
+
+.text
+    width: 100%
+    color: $colorText
+    overflow-wrap: break-word
+
+.time
+    color: $colorText
+    opacity: 0.4
+    position: absolute
+    bottom: 1%
+    right: 4%
+
+

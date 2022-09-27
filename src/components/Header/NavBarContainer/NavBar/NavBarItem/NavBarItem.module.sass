@@ -1,0 +1,48 @@
+$black-color: #000000
+$gray-color: #808080
+
+.item
+    width: 6em
+    height: 100%
+    box-sizing: border-box
+
+.item:hover
+    box-sizing: border-box
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25)
+    border-radius: 2px
+
+.svgNavBar, .svgMobileMenu
+    display: block
+    width: 24px
+    height: 24px
+    stroke: $gray-color
+    margin-bottom: 10px
+    stroke-width: 2
+    stroke-linecap: round
+    stroke-linejoin: round
+    fill: $gray-color
+
+.svgMobileMenu
+
+
+.link, .active
+    align-items: center
+    text-decoration: none
+    width: 100%
+    height: 100%
+    display: flex
+    justify-content: center
+    flex-direction: column
+    color: $gray-color
+    text-transform: uppercase
+    font-size: 15px
+    transition: 0.2s
+
+.active
+    box-sizing: border-box
+    color: $black-color
+    transition: 0.2s
+    font-size: 18px
+    border-bottom: 4px solid $black-color
+
+

@@ -1,0 +1,23 @@
+.messageWindow
+  display: flex
+  margin: 0
+  width: 100%
+  background-color: #f7fdff
+  padding: 15px 22px 15px 15px
+  flex-direction: column
+  height: 500px
+  overflow-y: scroll
+  &::-webkit-scrollbar
+    width: 7px
+    background-color: #F5F5F5
+  &::-webkit-scrollbar-track
+    background: rgba(0,0,0,0.1)
+    border: 1px solid #ccc
+  &::-webkit-scrollbar-thumb
+    border-radius: 10px
+    background: linear-gradient(left, #fff, #e4e4e4)
+    border: 1px solid #aaa
+  &::-webkit-scrollbar-thumb:hover
+    background: #fff
+  &::-webkit-scrollbar-thumb:active
+    background: linear-gradient(left, #22ADD4, #1E98BA)

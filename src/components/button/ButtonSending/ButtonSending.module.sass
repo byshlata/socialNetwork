@@ -1,0 +1,30 @@
+$ButtonGrayColor: rgba(0, 0, 0, 0.7)
+$ButtonGrayColorDisabled: rgba(0, 0, 0, 0.4)
+
+
+
+.button, .buttonDisabled
+    stroke: $ButtonGrayColor
+    width: 24px
+    height: 24px
+    border: none
+    border-radius: 5px
+    box-sizing: border-box
+    display: flex
+    align-items: center
+    justify-content: center
+    background-color: #fff
+    padding: 0
+    margin: 5px
+
+.buttonDisabled
+    stroke: $ButtonGrayColorDisabled
+
+
+.button:hover
+    border: 2px solid rgba(0,0,0,0.3)
+    transform: scale(1.05)
+
+
+
+
