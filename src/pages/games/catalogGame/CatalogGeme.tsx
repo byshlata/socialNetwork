@@ -27,7 +27,7 @@ export const CatalogGame = ({ baseGame, startGame }: CatalogGameType): ReactElem
           <div>{m.descriptionGame}</div>
           <NavLink
             className={s.linkButton}
-            to={`${Path.Root}${Path.Games}${Path.Root}${m.nameGame.toLowerCase()}`}
+            to={`${Path.Games}${Path.Root}${m.nameGame.toLowerCase()}`}
           >
             <Button type="primary" onClick={() => onStartGameHandler(m.tsxGame)}>
               Start

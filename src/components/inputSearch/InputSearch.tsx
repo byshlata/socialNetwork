@@ -30,11 +30,11 @@ export const InputSearch = ({ setDebouncedValue }: InputSearchType): ReactElemen
 
   return (
     <Input
-      placeholder="input name user"
+      placeholder="input name user..."
       onChange={onChangeHandle}
       prefix={<SearchOutlined />}
       style={{
-        width: '20%',
+        width: '30%',
       }}
     />
   );

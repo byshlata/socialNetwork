@@ -2,9 +2,9 @@ import React, { ReactElement, useState } from 'react';
 
 import { useSelector } from 'react-redux';
 
-import { LoginPage } from 'components/loginPage/LoginPage';
 import { CatalogGame } from 'pages/games/catalogGame/CatalogGeme';
 import { Double } from 'pages/games/catalogGame/duble/Duoble';
+import { LoginPage } from 'pages/loginPage/LoginPage';
 import { selectIsAuthUser } from 'state';
 
 export type TypeCatalogGame = {

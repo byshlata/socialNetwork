@@ -31,6 +31,7 @@ export const PaginationContainer = ({
         showSizeChanger={false}
         onChange={onChangePagination}
         disabled={disabled}
+        size="default"
       />
     </div>
   );

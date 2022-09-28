@@ -5,6 +5,7 @@ import { useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 
 import { MenuLogin } from 'components';
+import { Path } from 'enum';
 import { selectAuthUserName, selectIsAuthUser } from 'state';
 
 export const LoginUser = (): ReactElement => {
@@ -16,7 +17,7 @@ export const LoginUser = (): ReactElement => {
       {isAuth ? (
         <MenuLogin login={authUserName} />
       ) : (
-        <NavLink to="/login">
+        <NavLink to={`${Path.Login}`}>
           <LogoutOutlined />
         </NavLink>
       )}

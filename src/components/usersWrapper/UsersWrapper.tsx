@@ -10,7 +10,7 @@ import React, {
 import { Spin } from 'antd';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { InputSearch, LinerProgress, PaginationContainer, UserBlock } from 'components';
+import { InputSearch, PaginationContainer, UserBlock } from 'components';
 import s from 'components/usersWrapper/UsersWrapper.module.sass';
 import { PaginationOption } from 'enum';
 import { deleteUsers, selectIsLoading, selectItems, selectTotalCount } from 'state';
@@ -70,7 +70,6 @@ export const UsersWrapper = memo(
       <div className={s.user}>
         <div className={s.userPageWrapper}>
           <InputSearch setDebouncedValue={onFindUser} />
-          <LinerProgress isLoading={isAppLoading} />
         </div>
         <div className={s.paginationWrapper}>{paginationElement}</div>
         <Suspense fallback={<Spin size="large" />}>

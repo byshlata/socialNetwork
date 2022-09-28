@@ -4,8 +4,8 @@ import { Button, Checkbox, Input } from 'antd';
 import { useFormik } from 'formik';
 import { useSelector } from 'react-redux';
 
-import s from 'components/loginPage/LoginPage.module.sass';
 import { useAppDispatch } from 'hooks';
+import s from 'pages/loginPage/LoginPage.module.sass';
 import {
   changeAuthUserProfile,
   getAuthUserProfile,

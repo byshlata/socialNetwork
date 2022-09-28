@@ -1,7 +1,6 @@
 export enum Path {
   Root = '/',
   Games = 'games',
-  Dialogs = 'dialogs',
   Users = 'users',
   Posts = 'posts',
   Profile = 'profile',

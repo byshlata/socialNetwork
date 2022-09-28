@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const AMOUNT_POST_ON_THE_PAGE = 10;
+const AMOUNT_POST_ON_THE_PAGE = 5;
 
 function createArrayPost(): string[] {
   const arrayHelper: string[] = [];

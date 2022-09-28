@@ -6,10 +6,9 @@ import { useFormik } from 'formik';
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 
-import s from './LoginPage.module.sass';
-
 import { Path, RuleFormik } from 'enum';
 import { useAppDispatch } from 'hooks';
+import s from 'pages/loginPage/LoginPage.module.sass';
 import { authUser, selectCaptchaUrl, selectIsAuthUser, selectIsLoading } from 'state';
 import { FormikErrorType } from 'types';
 

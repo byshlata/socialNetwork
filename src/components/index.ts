@@ -10,7 +10,7 @@ export { UserBlock } from './userBlock/UserBlock';
 
 export { ProfileUser } from './profileUser/ProfileUser';
 
-export { TextArea } from './TextArea/TextArea';
+export { TextArea } from './textArea/TextArea';
 
 export { DialogMessage } from 'components/dialogMessage/DialogMessage';
 
@@ -47,7 +47,7 @@ export {
   ButtonDragAndDrop,
 } from './button';
 
-export { Posts } from './posts/Posts';
+export { Posts } from '../pages/posts/Posts';
 
 export { Games } from '../pages/games';
 
@@ -57,7 +57,7 @@ export { Routers } from 'pages/routers/Routers';
 
 export { LoginUser } from './loginUser/LoginUser';
 
-export { LoginPage } from './loginPage/LoginPage';
+export { LoginPage } from '../pages/loginPage/LoginPage';
 
 export { SpanChange } from './spanChange/SpanChange';
 
@@ -69,7 +69,7 @@ export { AvatarUserProfile } from './avatarUserProfile/AvatarUserProfile';
 
 export { ProfileInformation } from './profileInformation/ProfileInformation';
 
-export { Users } from 'components/users/Users';
+export { Users } from 'pages/users/Users';
 
 export { Friends } from 'pages/friends/Friends';
 
@@ -92,3 +92,5 @@ export { UploadPhoto } from './uploadPhoto/UploadPhoto';
 export { UserStatus } from './userStatus/UserStatus';
 
 export { MenuLogin } from './menuLogin/MenuLogin';
+
+export { Post } from './post/Post';

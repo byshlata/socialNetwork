@@ -1,8 +1,7 @@
 import React, { ReactElement } from 'react';
 
 import { UsersWrapper } from 'components';
-import { PaginationOption } from 'enum';
-import { TypeUser } from 'enum/typeUser';
+import { PaginationOption, TypeUser } from 'enum';
 import { useAppDispatch } from 'hooks';
 import { getUsers, searchUsers } from 'state';
 
